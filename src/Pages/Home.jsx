@@ -79,7 +79,7 @@ export const Home = () => {
                                     <div className="product-details">
                                         <p>{item.details}</p>
                                         <p>Price: - {item.price}</p>
-                                        <NavLink to={item.img}>
+                                        <NavLink>
                                             SHOP NOW 
                                         </NavLink>
                                     </div>
